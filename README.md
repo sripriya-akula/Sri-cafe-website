@@ -1,5 +1,8 @@
-☕ Sri Cafe 🌿
 
+![cafe](https://github.com/user-attachments/assets/cd5f0a0b-2af7-428a-babb-e987b4766065)
+
+
+☕ Sri Cafe 🌿
 Brewing Happiness in Every Sip
 
 Welcome to Sri Cafe, a beautifully designed and responsive café website developed as part of a Campus Drive Web Development Task.
@@ -73,6 +76,8 @@ Improved Bootstrap and JavaScript integration skills.
 
 
 A detailed project report explaining objectives, design, implementation, challenges, and outcomes is included in this repository.
+
+
 📘 Download here:[project reflection report.pdf](https://github.com/user-attachments/files/23186985/project.reflection.report.pdf)
 
 
