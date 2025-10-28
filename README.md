@@ -1,71 +1,84 @@
-☕ Sri Cafe – Responsive Café Website
-🧩 Overview
+☕ Sri Cafe 🌿
 
-Sri Cafe is a simple and responsive café website built using HTML, CSS, and JavaScript.
-It was developed as part of a Campus Drive Web Development Task to demonstrate front-end web design skills.
+Brewing Happiness in Every Sip
 
-The website allows users to view the menu, learn about the café, explore contact details, and place an order — all through a clean and user-friendly interface.
+Welcome to Sri Cafe, a beautifully designed and responsive café website developed as part of a Campus Drive Web Development Task.
+This project showcases a modern café website with smooth navigation, elegant visuals, and a simple order flow — made entirely using HTML, CSS, and JavaScript.
 
-🚀 Features
+🌟 Features
 
-Responsive layout for all devices
+✅ Responsive Design – Works seamlessly on all devices (mobile, tablet, desktop)
 
-Interactive and elegant home page
+🍰 Attractive Home Page – Highlights Sri Cafe’s ambiance and special dishes
 
-Menu section with food items and prices
+📋 Menu Section – Displays all available café items with prices
 
-About page describing the café
+📖 About Page – Describes the story and uniqueness of Sri Cafe
 
-Contact page with café details
+📞 Contact Page – Provides location, timings, and café details
 
-Simple order system with auto-filled item and quantity
+🛒 Order System – Auto-fills selected item name and quantity for quick ordering
 
-🛠️ Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript
-
-📂 Project Structure
+💻 Tech Stack
+Category	Technologies Used
+Frontend	HTML5, CSS3, JavaScript
+Styling	Bootstrap 5, Google Fonts
+Design Tools	Canva / Figma
+Version Control	Git & GitHub
+📁 Project Structure
 SriCafe/
 │
 ├── index.html
 ├── about.html
-├── menu.html
 ├── contact.html
 ├── order.html
 ├── style.css
 ├── script.js
 ├── images/
-└── Project_Report_SriCafe.pdf
+├── Project_Report_SriCafe.pdf
+└── README.md
 
-🌐 Live Preview
+🧠 Project Reflection
 
-🔗 Live Site
-💾 GitHub Repository
+🎯 Objectives:
+To design a professional and elegant café website that provides users with a smooth browsing experience while exploring the café’s menu and contact details.
 
-🔗 GitHub Repo
+⚙️ Implementation Highlights:
 
-📖 Project Report
+Built using pure HTML, CSS, JavaScript, and Bootstrap.
 
-A detailed report explaining:
+Integrated interactive navigation bar and responsive layout.
 
-Objectives
+Order form with item auto-fill and quantity tracking.
 
-Design and Implementation
+Enhanced user interface with café-themed color palettes.
 
-Challenges
+🚧 Challenges Faced:
 
-Outcomes
+Maintaining consistent design across multiple pages.
 
-is included in this repository as:
-📄 [Uploading project reflection report.docx…]()
+Ensuring the order and contact forms worked smoothly.
+
+Aligning responsiveness for different device widths.
+
+🏆 Outcomes:
+
+Successfully created a fully functional café website.
+
+Gained strong experience in front-end design and layout building.
+
+Improved Bootstrap and JavaScript integration skills.
+
+📄 Project Report
+
+
+A detailed project report explaining objectives, design, implementation, challenges, and outcomes is included in this repository.
+📘 Download here:[project reflection report.pdf](https://github.com/user-attachments/files/23186985/project.reflection.report.pdf)
+
 
 👩‍💻 Author
 
-Akula Sripriya
-📍 B.Tech – CSE | YJRDMS College of Engineering, JNTUK
-📧 sripriya.akula2005@gmail.com
 
+Akula Sripriya
+🎓 B.Tech – CSE | YJRDMS College of Engineering, JNTUK
+📧 sripriya.akula2005@gmail.com
