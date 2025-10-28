@@ -28,6 +28,8 @@ Frontend	HTML5, CSS3, JavaScript
 Styling	Bootstrap 5, Google Fonts
 Design Tools	Canva / Figma
 Version Control	Git & GitHub
+
+
 📁 Project Structure
 SriCafe/
 │
@@ -41,7 +43,10 @@ SriCafe/
 ├── Project_Report_SriCafe.pdf
 └── README.md
 
+
+
 🧠 Project Reflection
+
 
 🎯 Objectives:
 To design a professional and elegant café website that provides users with a smooth browsing experience while exploring the café’s menu and contact details.
@@ -85,5 +90,7 @@ A detailed project report explaining objectives, design, implementation, challen
 
 
 Akula Sripriya
+
 🎓 B.Tech – CSE | YJRDMS College of Engineering, JNTUK
+
 📧 sripriya.akula2005@gmail.com
