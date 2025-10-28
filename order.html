@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Now - Sri Cafe</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background-color: #fff5f5;
+    }
+    header {
+      background-color: darkred;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background-color: #b30000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .form-container {
+      background-color: #ffe6e6;
+      margin: 40px auto;
+      width: 350px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #b30000;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #b30000;
+    }
+    button {
+      background-color: darkred;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      width: 100%;
+      margin-top: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #990000;
+    }
+    p {
+      text-align: center;
+      color: darkgreen;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Order Your Favorite Dish</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="form-container">
+    <form id="orderForm">
+      <label>Item Name:</label>
+      <input type="text" id="item" name="item" readonly>
+
+      <label>Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+      <label>Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label>Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label>Phone Number:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <button type="submit">Place Order</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script>
+    
+    const selectedItem = localStorage.getItem("selectedItem");
+    if (selectedItem) {
+      document.getElementById("item").value = selectedItem;
+    }
+
+    
+    document.getElementById("orderForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const item = document.getElementById("item").value;
+      const qty = document.getElementById("quantity").value;
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+
+      if (!item || !qty || !name || !email || !phone) {
+        document.getElementById("message").innerText = " Please fill all fields.";
+        return;
+      }
+
+      document.getElementById("message").innerText = " Order Placed Successfully! We’ll contact you soon.";
+      localStorage.removeItem("selectedItem");
+    });
+  </script>
+</body>
+</html>
